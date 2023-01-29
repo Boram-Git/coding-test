@@ -1,0 +1,7 @@
+코딩테스트 연습 > 코딩테스트 입문 > 가장 큰 수 찾기
+
+def solution(array):
+    answer = [0,0]
+    answer[0] = max(array)
+    answer[1] = array.index(max(array))
+    return answer
